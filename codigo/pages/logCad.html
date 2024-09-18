@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechMentor</title>
+    <link rel="stylesheet" href="../assets/css/LogCad.css">
+</head>
+
+<body>
+    <div id="login">
+        <div id="switch">
+            <button onclick="showLogin()">Entrar</button>
+            <button onclick="showSignup()">Inscrever-se</button>
+        </div>
+
+        <!-- Seção de login -->
+        <div id="entrar" class="form-section active">
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Senha">
+            <button>Login</button>
+        </div>
+
+        <!-- Seção de cadastro -->
+        <div id="cadastrar" class="form-section">
+            <div id="SouMonitor">
+                <input type="checkbox" id="aceitar" onclick="toggleNewField()">
+                <p>Sou Monitor</p>
+            </div>
+            <input type="text" placeholder="Nome">
+            <input type="email" placeholder="Email">
+            <div id="additionalFields"></div> <!-- Contêiner para campos adicionais -->
+            <input type="password" placeholder="Senha">
+            <input type="password" placeholder="Confirmar Senha">
+            <button id="cadastrarBtn">Cadastrar</button> <!-- Adicione um id aqui -->
+        </div>
+
+    </div>
+
+    <script src="../assets/js/script.js"></script>
+</body>
+
+</html>

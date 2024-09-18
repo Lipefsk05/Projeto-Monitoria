@@ -1,0 +1,196 @@
+body {
+    background-color: #7F32A6;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+
+#login{
+    background-color: white;
+    justify-items: center;
+    width: 650px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#switch{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 10px 0;
+}
+
+
+#switch button{
+    color: #7F32A6;
+    background-color: #fff;
+    border: none;
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    transition: linear;
+    transition-duration: 0.1s;
+    border-bottom: solid #7F32A6;
+    margin-top: 100px;
+}
+
+#switch button:hover{
+    color: #7F32A6;
+    border-radius: 50px;
+    border: solid #7F32A6;
+}
+
+#switch button.active {
+    background-color: #7F32A6;
+    color: white;
+    border-radius: 30px;
+}
+
+
+#entrar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 170px;
+}
+
+#entrar button{
+    background-color: #7F32A6;
+    color: white;
+    border: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    transition-duration: 0.1s;
+    margin-top: 120px;
+}
+
+#entrar button:active{
+    background-color: #53216c;
+    color: white;
+}
+
+
+
+#entrar input{
+    border: solid 3px #7F32A6;
+    border-radius: 10px;
+    outline: none;
+    width: 450px;
+    height: 40px;
+    margin-bottom: 30px;
+    color: #7F32A6;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    caret-color: #7F32A6;
+    padding-left: 10px;
+}
+
+#entrar input::placeholder  {
+    color: #6d2b8f8d;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+#cadastrar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+}
+
+#cadastrar button{
+    background-color: #7F32A6;
+    color: white;
+    border: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    margin-top: 60px;
+    transition: 0.1s;
+}
+
+#cadastrar button:active{
+    background-color: #53216c;
+    color: white;
+}
+
+#cadastrar input{
+    border: solid 3px #7F32A6;
+    border-radius: 10px;
+    outline: none;
+    width: 450px;
+    height: 40px;
+    margin-bottom: 30px;
+    color: #7F32A6;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    caret-color: #7F32A6;
+    padding-left: 10px;
+}
+
+#cadastrar input::placeholder  {
+    color: #6d2b8f8d;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+#cadastrar input[type="checkbox"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 20px  ;
+    outline: none;
+}
+
+#cadastrar input[type="checkbox"]:checked {
+    background-color: #7F32A6;
+}
+
+#cadastrar input[type="checkbox"]:checked::after {
+    color: #fff;
+    content: '✔';
+    display: block;
+    font-size: 30px;
+    border-radius: 3px;
+    position: absolute;
+    top: -5px;
+    left: 2px;
+}
+
+#SouMonitor {
+    display: flex;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    font-weight: 900;
+    color: #7F32A6;
+    margin-right: 290px;
+}
+
+

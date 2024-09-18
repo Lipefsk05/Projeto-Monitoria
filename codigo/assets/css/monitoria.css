@@ -1,0 +1,44 @@
+main{
+    padding: 5px;
+    padding-bottom: 75px;
+}
+
+main p{
+    text-align: center;
+}
+
+.monit {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 25px;
+    justify-items: center;
+    margin-inline: 300px;
+}
+
+button{
+    padding-top: 10px;
+    background-color: #7F32A6;
+    color: #7F32A6;
+    border: none;
+    border-radius: 10px;
+    transition: .1s;
+}
+
+button:hover{
+    scale: 1.2;
+}
+
+button i{
+    border-radius: 5px;
+    font-size: 60px;
+    background-color: #fff;
+}
+
+button p{
+    padding: 5px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    background-color: #fff;
+}

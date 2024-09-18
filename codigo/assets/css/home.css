@@ -1,0 +1,31 @@
+
+main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    padding: 50px;
+}
+
+main a{
+    text-decoration: none;
+}
+article{
+    padding: 10px;
+    color: white;
+    background-color: #7F32A6;
+    border-radius: 10px;
+    text-align: center;
+    transition: .3s;
+}
+
+article p{
+    margin: 0;
+}
+
+article i{
+    font-size: 175px;
+}
+
+article:hover{
+    scale: 1.1;
+}
